@@ -199,3 +199,12 @@ DONT_DEXPREOPT_PREBUILTS := true
 include device/qcom/sepolicy/sepolicy.mk
 
 -include vendor/xiaomi/cancro/BoardConfigVendor.mk
+
+# BlissPop Config Flags
+TARGET_TC_ROM := 4.8-sm
+TARGET_TC_KERNEL := 4.7-linaro
+BLISSIFY := true
+BLISS_O3 := true
+BLISS_STRICT := true
+BLISS_GRAPHITE := true
+BLISS_KRAIT := true
