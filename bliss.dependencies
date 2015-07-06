@@ -1,0 +1,14 @@
+[
+    {
+        "remote": "cm",
+        "repository": "android_device_qcom_common",
+        "target_path": "device/qcom/common",
+        "revision": "cm-12.1"
+    },
+    {
+        "remote": "TeamBliss-Devices",
+        "repository": "kernel_xiaomi_cancro",
+        "target_path": "kernel/xiaomi/cancro",
+        "revision": "lp5.1"
+    }
+]
